@@ -21,7 +21,7 @@ io.sockets.on('connection', function(socket) {
   
   
           } else {  
-               socket.emit('chat', 'SERVER', '歡迎光臨 ' + data);  
+               socket.emit('chat', 'SERVER', '歡迎 ' + data);  
   
   
                socket.nickname = data;  
